@@ -1,0 +1,71 @@
+.main_div{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:rgb(214, 21, 21);
+    display: flex;
+    border-radius: 3px;
+    background-image: url("QuizImages.jpg");
+}
+.box_div{
+    background-color:  rgb(15, 213, 219);
+    display: flex;
+   flex-direction: column;
+    width: 50%;
+    
+    border-radius: 5px;
+    border-style: hidden;
+    text-align:left;
+    
+}
+
+.question_div{
+    margin-top: 20px;
+    margin-left: 8px;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+    
+    align-items: center;
+}
+.option_1{
+    margin-top:25px;
+    margin-left: 8px;
+    
+}
+.option_2{
+    margin-top:15px;
+    margin-left: 8px;
+    
+}
+.option_3{
+    margin-top:15px;
+    margin-left: 8px;
+  
+}
+.option_4{
+    margin-top:15px;
+    margin-left: 8px;
+    
+}
+.options{
+    font-size: large;
+    font-weight: bold;
+}
+.btn_div{
+   
+    
+    text-align: center;
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: green;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+}
